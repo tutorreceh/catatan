@@ -1,0 +1,9 @@
+sudo nano /etc/vsftpd.conf
+write_enable=YES
+
+
+Konfigurasi chroot_local
+
+
+chroot_local_user=YES
+allow_writeable_chroot=YES	
